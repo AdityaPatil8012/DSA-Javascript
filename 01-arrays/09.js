@@ -21,14 +21,6 @@ function twoSum(nums, target) {
 
 console.log(twoSum(nums, 9))
 
-// let ans = [];
-
-// console.log(ans);
-
-// ans.push(1);
-// console.log(ans);
-// ans.push(2);
-// console.log(ans);
 
 
 
