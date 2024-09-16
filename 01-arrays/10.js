@@ -35,8 +35,21 @@ let numbers2 = [1,23,34,46,57,68,79];
 //   })
 // }
 
-let maxValue = numbers.reduce((accumulator, currentValue)=>{
-  return Math.max(currentValue, accumulator)
-})
+// let maxValue = numbers.reduce((accumulator, currentValue)=>{
+//   return Math.max(currentValue, accumulator)
+// })
 
-console.log(maxValue);
+// console.log(maxValue);
+
+
+// flattening an array of arrays;
+
+// let arrays = [[1, 2, 3], [4, 5], [6]];
+
+// let unifiedArray = arrays.reduce((accumulator, currentArray)=>{
+//   return accumulator.concat(currentArray);
+// }, [])
+
+// console.log(arrays);
+
+// console.log(unifiedArray);
